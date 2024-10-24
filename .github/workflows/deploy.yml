@@ -30,3 +30,6 @@ jobs:
 
     - name: Output public IP
       run: echo "Web application is accessible at http://${{ steps.apply.outputs.public_ip }}:80"
+
+
+      

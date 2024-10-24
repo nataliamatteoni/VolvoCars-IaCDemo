@@ -15,7 +15,7 @@ resource "aws_instance" "web" {
               yum update -y
               yum install -y docker
               service docker start
-              docker run -d -p 80:80 nome_da_imagem_no_dockerhub
+              docker run -d -p 80:80 nginx
               EOF
 }
 
